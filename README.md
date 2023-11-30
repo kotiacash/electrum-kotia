@@ -1,4 +1,4 @@
-# Electrum-LTC - Lightweight Litecoin client
+# Electrum-KOT - Lightweight Kotia client
 
 ```
 Licence: MIT Licence
@@ -11,10 +11,7 @@ Homepage: https://electrum-ltc.org/
 
 ## Getting started
 
-_(If you've come here looking to simply run Electrum-LTC,
-[you may download it here](https://electrum-ltc.org/#download).)_
-
-Electrum-LTC itself is pure Python, and so are most of the required dependencies,
+Electrum-KOT itself is pure Python, and so are most of the required dependencies,
 but not everything. The following sections describe how to run from source, but here
 is a TL;DR:
 
