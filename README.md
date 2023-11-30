@@ -69,7 +69,7 @@ directory. To run Electrum-LTC from its root directory, just do:
 $ ./run_electrum
 ```
 
-You can also install Electrum-LTC on your system, by running this command:
+You can also install Electrum-KOT on your system, by running this command:
 ```
 $ sudo apt-get install python3-setuptools python3-pip
 $ python3 -m pip install --user .
@@ -104,7 +104,7 @@ $ sudo apt-get install python-requests gettext
 $ ./contrib/pull_locale
 ```
 
-Finally, to start Electrum-LTC:
+Finally, to start Electrum-KOT:
 ```
 $ ./run_electrum
 ```
