@@ -1,0 +1,22 @@
+# If you want Electrum to appear in a Linux app launcher ("start menu"), install this by doing:
+# sudo desktop-file-install electrum-ltc.desktop
+
+[Desktop Entry]
+Comment=Lightweight Kotia Client
+Exec=sh -c "PATH=\"\\$HOME/.local/bin:\\$PATH\"; electrum-ltc %u"
+GenericName[en_US]=Kotia Wallet
+GenericName=Kotia Wallet
+Icon=electrum-kot
+Name[en_US]=Electrum Kotia Wallet
+Name=Electrum Kotia Wallet
+Categories=Finance;Network;
+StartupNotify=true
+StartupWMClass=electrum-ltc
+Terminal=false
+Type=Application
+MimeType=x-scheme-handler/Kotia;
+Actions=Testnet;
+
+[Desktop Action Testnet]
+Exec=sh -c "PATH=\"\\$HOME/.local/bin:\\$PATH\"; electrum-ltc --testnet %u"
+Name=Testnet mode
