@@ -5,7 +5,7 @@ Licence: MIT Licence
 Author: Thomas Voegtlin
 Port Maintainer: Pooler
 Language: Python (>= 3.8)
-Homepage: https://electrum-ltc.org/
+Homepage: https://kotia.cash/
 ```
 
 
