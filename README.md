@@ -3,7 +3,7 @@
 ```
 Licence: MIT Licence
 Author: Thomas Voegtlin
-Port Maintainer: Pooler
+Port Maintainer: Mnxsija
 Language: Python (>= 3.8)
 Homepage: https://kotia.cash/
 ```
