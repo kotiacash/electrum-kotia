@@ -1,0 +1,31 @@
+include LICENCE RELEASE-NOTES AUTHORS
+include README.md
+include electrum-kot.desktop
+include *.py
+include run_electrum
+include org.electrum_kot.electrum_kot.metainfo.xml
+recursive-include packages *.py
+recursive-include packages cacert.pem
+
+include contrib/requirements/requirements*.txt
+include contrib/deterministic-build/requirements*.txt
+include contrib/*.sh
+
+graft electrum_kot
+prune electrum_kot/tests
+graft contrib/udev
+
+exclude electrum_kot/*.so
+exclude electrum_kot/*.so.0
+exclude electrum_kot/*.dll
+exclude electrum_kot/*.dylib
+
+global-exclude __pycache__
+global-exclude *.py[co~]
+global-exclude *.py.orig
+global-exclude *.py.rej
+global-exclude .git
+
+# Maybe we should exclude the compiled locale files? see https://askubuntu.com/a/144139
+# We include both source (.po) and compiled (.mo) locale files atm (if present).
+# exclude electrum_kot/locale/*/LC_MESSAGES/electrum.mo

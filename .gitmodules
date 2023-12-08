@@ -1,0 +1,6 @@
+[submodule "contrib/deterministic-build/electrum-kot-locale"]
+	path = contrib/deterministic-build/electrum-kot-locale
+	url = https://github.com/spesmilo/electrum-locale
+[submodule "electrum_kot/www"]
+	path = electrum_kot/plugins/payserver/www
+	url = https://github.com/spesmilo/electrum-http.git

@@ -1,0 +1,7 @@
+{
+    "electrumx1.kotia.cash": {
+        "pruning": "-",
+        "s": "50001",
+        "version": "1.4"
+    }
+}
